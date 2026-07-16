@@ -167,8 +167,8 @@ export default function Waitlist() {
             &nbsp;Everything you need to decide.
           </h1>
           <p className="enr-hero__sub">
-            Be first in line when Enrolli opens, and lock in a founding-member
-            discount on Match &amp; Match+.
+            Be first in line when Enrolli opens — everything you need to find
+            your best-fit college, free.
           </p>
         </div>
       </section>
@@ -180,7 +180,7 @@ export default function Waitlist() {
             <div className="enr-card enr-card--green">
               <h2 className="enr-form__title">Claim your spot</h2>
               <p className="enr-form__note">
-                Founding-member pricing closes at launch.
+                Free for every student. Be first through the door.
               </p>
               <form onSubmit={handleSubmit} className="enr-form">
                 <div className="row">
@@ -233,8 +233,8 @@ export default function Waitlist() {
                 You're in, {name || "friend"}! 🎉
               </h2>
               <p className="enr-success__body">
-                Your founding-member discount is reserved. We'll email you the
-                second Enrolli goes live on August 1.
+                You're all set. We'll email you the second Enrolli goes live on
+                August 1.
               </p>
               <p className="enr-success__count">Just {cd.d} days to go.</p>
             </div>
@@ -391,8 +391,7 @@ export default function Waitlist() {
             Only <span className="accent-orange">{cd.d} days</span> until launch.
           </h2>
           <p className="final-cta__sub">
-            Join the waitlist now to be first in line and keep your
-            founding-member discount.
+            Join the waitlist now to be first in line when we open.
           </p>
           <a href="#waitlist-form" className="btn btn--primary">
             <span className="dot dot--white" />
